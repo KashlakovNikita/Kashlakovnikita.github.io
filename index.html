@@ -78,6 +78,31 @@
 		height: 650px;
 	}
 
+	.Service {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		height: 150px;
+	}
+
+	.Serviceblock {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: flex-start;
+		height: 150px;
+	}
+
+	.Serviceicon {
+		 width: 85px;
+        height: 75px;
+	}
+
+	.Servicetext {
+		height: 11px
+	}
+
 	h1 {
 		font-size: 60px;
 		margin: 0 0 15px;
@@ -90,7 +115,7 @@
 	}
 	h2 {
 		font-size: 40px;
-		margin: 0 0 15px;
+		margin: 0;
 	}
 	</style>
 </head>
@@ -116,9 +141,22 @@
 		</div>
 		<div class="fixed-container second-section">
 			<h2>Что я делаю</h2>
-			<div> class="Что я делаю">
-
-
+			<div class="Service">
+				<div class="Serviceblock">
+					<img src="./img/icons/tools.png" alt="tools-and-utensils" class="Serviceicon" />
+					<p class="Servicetext">Вёрстка лендинг-страниц и сайтов любой сложности</p>
+				</div>
+				<div class="Serviceblock">
+					<img src="./img/icons/responsive.png" alt="responsive" class="Serviceicon" />
+					<p class="Servicetext">Адаптивная вёрстка под все браузеры и устройства</p>
+				</div>
+				<div class="Serviceblock">
+					<img src="./img/icons/programming.png" alt="programming" class="Serviceicon" />
+					<p class="Servicetext">Frontend-разработка и программирование</p>
+				</div>
+				<div class="Serviceblock">
+					<img src="./img/icons/coding.png" alt="coding" class="Serviceicon" />
+					<p class="Servicetext">Исправление и доработка существующей вёрстки</p>
 			</div>
 		</div>
 	</header>
